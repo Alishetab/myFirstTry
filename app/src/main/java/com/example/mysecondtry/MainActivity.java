@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
         super.onPause();
         Toast.makeText(getApplicationContext(),"حالت توقف",Toast.LENGTH_LONG).show();
     }
-    /*protected void onDestroy(){
+     protected void onDestroy(){
         super.onDestroy();
         Toast.makeText(getApplicationContext(),"حالت تخریب",Toast.LENGTH_SHORT).show();
-    }*/
+    }
 }

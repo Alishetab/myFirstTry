@@ -23,5 +23,6 @@ public class MainActivity extends AppCompatActivity {
      protected void onDestroy(){
         super.onDestroy();
         Toast.makeText(getApplicationContext(),"حالت تخریب",Toast.LENGTH_SHORT).show();
+        //I Love coding
     }
 }
